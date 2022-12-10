@@ -1,0 +1,10 @@
+.header__lang-link_ru {
+  display: flex;
+  color: white;
+  padding: 0;
+  margin: 0 18px 0 0;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
