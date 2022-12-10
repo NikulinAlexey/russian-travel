@@ -2,4 +2,5 @@
   display: flex;
   justify-content: space-between;
   margin: 28px 3.125% 48px 3.125%;
+  border: 1px solid green;
 }

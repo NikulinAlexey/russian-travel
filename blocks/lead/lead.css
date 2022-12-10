@@ -3,4 +3,5 @@
   flex-direction: column;
   max-width: 984px;
   margin: 0 auto 92px auto;
+  border: 1px solid green;
 }
