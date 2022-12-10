@@ -1,0 +1,10 @@
+.lead-subtitle {
+  display: flex;
+  margin: 0 auto 64px auto;
+  max-width: 640px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  border: 1px solid green;
+}
