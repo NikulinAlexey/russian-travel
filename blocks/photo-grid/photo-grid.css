@@ -3,7 +3,6 @@
   gap: 18px;
   grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(3, 213px);
-  margin: 0 auto 92px auto;
-  max-width: 1184px;
+  margin: 0 3.125% 92px 3.125%;
   border: 1px solid green;
 }
