@@ -1,5 +1,14 @@
 .place {
-  display: flex;
+  margin-bottom: 80px;
+  display: grid;
+  grid-template-columns: 47% 1fr;
+  grid-template-rows: 152px 1fr;
+  row-gap: 48px;
+  column-gap: 4%;
   flex-direction: row;
   border: 1px solid red;
+}
+
+.place:last-of-type {
+  margin-bottom: 0;
 }
