@@ -1,8 +1,8 @@
 .photo-grid {
   display: grid;
   gap: 18px;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   margin: 0 3.125% 92px 3.125%;
   border: 1px solid green;
 }
