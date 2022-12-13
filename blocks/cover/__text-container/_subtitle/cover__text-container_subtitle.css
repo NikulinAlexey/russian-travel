@@ -1,8 +1,7 @@
-.cover__subtitle {
+.cover__text-container_subtitle {
   padding: 0;
   margin: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  border: 1px solid green;
 }

@@ -1,0 +1,4 @@
+.cover__background_image {
+  width: 100%;
+  object-fit: cover;
+}

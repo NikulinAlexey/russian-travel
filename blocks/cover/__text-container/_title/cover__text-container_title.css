@@ -1,9 +1,7 @@
-.cover__title {
+.cover__text-container_title {
   padding: 0;
-  margin: 0;
+  margin: 0 0 32px 0;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  transition: opacity .3s ease-in-out;
-  border: 1px solid green;
 }
