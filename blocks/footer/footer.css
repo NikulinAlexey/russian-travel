@@ -1,4 +1,14 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(/vendor/Inter-Regular.woff2) format("woff2"),
+       url(/vendor/Inter-Regular.woff) format("woff");
+}
+
+
 .footer {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: space-between;
   margin: 0 48px 24px 48px;

@@ -1,4 +1,22 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  src: url(/vendor/Inter-ExtraBold.woff2) format("woff2"),
+       url(/vendor/Inter-ExtraBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(/vendor/Inter-Regular.woff2) format("woff2"),
+       url(/vendor/Inter-Regular.woff) format("woff");
+}
+
+
 .place {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 47% 1fr;

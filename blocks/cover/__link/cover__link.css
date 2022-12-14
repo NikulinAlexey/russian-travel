@@ -1,1 +1,3 @@
-.cover__text-container_link {}
+.cover__text-container_link {
+  z-index: 4;
+}

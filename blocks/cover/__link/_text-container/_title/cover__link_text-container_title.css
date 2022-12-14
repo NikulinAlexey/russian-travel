@@ -1,4 +1,4 @@
-.cover__text-container_title {
+.cover__link_text-container_title {
   width: 560px;
   padding: 0;
   margin: 0 0 32px 0;
@@ -6,6 +6,6 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
+  color: white;
   z-index: 2;
-  border: 1px solid red;
 }
