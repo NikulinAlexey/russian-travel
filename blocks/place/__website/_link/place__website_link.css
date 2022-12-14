@@ -5,4 +5,9 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  opacity: 1;
+}
+
+.place__website_link:hover {
+  opacity: .8;
 }
