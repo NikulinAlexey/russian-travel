@@ -6,5 +6,7 @@
 В этом проекте я использую возможности HTML и CSS. С помощью CSS,а именно с помощью grid-ов, я реализовал гибкую фотогалерею и карточки рекомендуемых к посещению локаций, также использовал flexbox возможности в некоторых местах. На сайте присутствуют несколько hover эффектов.
 
 Проект выполнен по макету в редакторе **Figma**:
-
+* [Ссылка на сайт](https://nikulinalexey.github.io/russian-travel/index.html)
 * [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+
+
