@@ -30,6 +30,5 @@
   box-sizing:border-box;
   background-color: #2A2C2F;
   color: white;
-  justify-content: start;
-  border: 3px solid white;
+  border: 3px solid blue;
 }

@@ -26,9 +26,8 @@
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 47% 1fr;
-  grid-template-rows: 152px 1fr;
-  row-gap: 48px;
-  column-gap: 4%;
+  grid-template-rows: minmax(min-content, max-content) 1fr;
+  gap: 2.5em;
   flex-direction: row;
 }
 
