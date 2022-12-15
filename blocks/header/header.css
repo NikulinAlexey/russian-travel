@@ -25,5 +25,5 @@
   text-rendering: optimizeLegibility;
   display: flex;
   justify-content: space-between;
-  margin: 28px 3.125% 48px 3.125%;
+  margin: 28px 3em 48px 3em;
 }

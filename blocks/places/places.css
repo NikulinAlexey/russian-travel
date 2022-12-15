@@ -29,3 +29,8 @@
   margin: 0 auto 92px auto;
 }
 
+@media screen and (max-width: 1055px) {
+  .places {
+      margin: 0 3% 92px 3%;
+  }
+} 
