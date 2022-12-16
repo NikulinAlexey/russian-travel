@@ -5,3 +5,9 @@
   grid-template-rows: repeat(3, 1fr);
   margin: 0 3% 92px 3%;
 }
+
+@media screen and (max-width: 769px) {
+  .intro {
+    margin: 0 3% 88px 3%;
+  }
+}

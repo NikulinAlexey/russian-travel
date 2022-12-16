@@ -28,3 +28,9 @@
   max-width: 984px;
   margin: 0 auto 92px auto;
 }
+
+@media screen and (max-width: 769px) {
+  .lead {
+    margin: 0 auto 88px auto;
+  }
+} 
