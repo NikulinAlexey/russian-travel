@@ -1,4 +1,4 @@
-.footer__nav_link {
+.footer__link {
   color: white;
   text-decoration: none;
   font-weight: 400;
@@ -6,19 +6,19 @@
   line-height: 18px;
 }
 
-.footer__nav_link:nth-of-type(2n) {
+.footer__link:nth-of-type(2n) {
   margin-left: 18px;
   margin-right: 18px;
 }
 
 @media screen and (max-width: 769px) {
-  .footer__nav_link {
+  .footer__link {
     font-size: 24px;
     line-height: 24px;
     margin: 0 auto 32px 0;
   }
 
-  .footer__nav_link:nth-of-type(2n) {
+  .footer__link:nth-of-type(2n) {
     margin: 0 auto 32px 0;
   }
 }
