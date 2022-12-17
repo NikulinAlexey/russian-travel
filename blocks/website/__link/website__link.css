@@ -6,9 +6,9 @@
   font-size: 18px;
   line-height: 22px;
   opacity: 1;
-  border: 1px solid green;
+  transition: opacity .3s ease-in-out;
 }
 
-.place__website_link:hover {
+.website__link:hover {
   opacity: .8;
 }
