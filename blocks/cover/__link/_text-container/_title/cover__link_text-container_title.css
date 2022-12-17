@@ -1,5 +1,5 @@
 .cover__link_text-container_title {
-  width: 560px;
+  max-width: 560px;
   padding: 0;
   margin: 0 0 32px 0;
   font-weight: 900;
@@ -8,4 +8,14 @@
   text-align: center;
   color: white;
   z-index: 2;
+}
+
+@media screen and (max-width: 769px) {
+  .cover__link_text-container_title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 16px;
+    max-width: 280px;
+    
+  }
 }

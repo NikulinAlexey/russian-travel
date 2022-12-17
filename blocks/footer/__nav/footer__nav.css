@@ -1,0 +1,12 @@
+.footer__nav {
+  display: flex;
+  border: 1px solid green;
+}
+
+@media screen and (max-width: 769px) {
+  .footer__nav {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 0 48px 0;
+  }
+}

@@ -9,3 +9,12 @@
   color: white;
   z-index: 2;
 }
+
+@media screen and (max-width: 769px) {
+  .cover__link_text-container_subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 280px;
+    
+  }
+}

@@ -34,3 +34,8 @@
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 769px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
