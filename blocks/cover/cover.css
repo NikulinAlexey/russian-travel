@@ -35,11 +35,12 @@
   flex-direction: column;
   margin: 0 3% 92px 3%;
   background-image: url(/images/cover-trains.jpg);
+  background-size:auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 740px;
-  width: 100%;
+  border: 1px solid red;
 }
 
 @media screen and (max-width: 1084px) {
