@@ -6,6 +6,7 @@
   height: 100%;
   border: 1px solid red;
   background-color: #2A2C2F;
+  transition: opacity .3s ease-in-out;
   opacity: .3;
 }
 
