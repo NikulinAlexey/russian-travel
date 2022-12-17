@@ -35,11 +35,10 @@
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__link/cover__link.css);
-@import url(../blocks/cover/__link/_background/cover__link_background.css);
+@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__link/_overlay/cover__link_overlay.css);
-@import url(../blocks/cover/__link/_text-container/cover__link_text-container.css);
-@import url(../blocks/cover/__link/_text-container/_subtitle/cover__link_text-container_subtitle.css);
-@import url(../blocks/cover/__link/_text-container/_title/cover__link_text-container_title.css);
+@import url(../blocks/cover/__link/_title/cover__link_title.css);
+@import url(../blocks/cover/__link/_subtitle/cover__link_subtitle.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);

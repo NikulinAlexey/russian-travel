@@ -1,4 +1,4 @@
-.cover__link_text-container_subtitle {
+.cover__link_subtitle {
   max-width: 70%;
   padding: 0;
   margin: 0 auto;
@@ -7,14 +7,15 @@
   line-height: 22px;
   text-align: center;
   color: white;
-  z-index: 2;
+  grid-column: 2/ span 1;
+  grid-row: 3/4;
+  border: 1px solid blue;
 }
 
 @media screen and (max-width: 769px) {
-  .cover__link_text-container_subtitle {
+  .cover__link_subtitle {
     font-size: 14px;
     line-height: 16px;
-    max-width: 280px;
-    
+    max-width: 280px; 
   }
 }

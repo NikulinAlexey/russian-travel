@@ -1,3 +1,26 @@
-.cover__text-container_link {
-  z-index: 4;
+.cover__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1fr 560px 1fr;
+  grid-template-rows:  1fr minmax(70px,152px) minmax(48px, 66px) 1fr;
+  text-decoration: none;
+  border: 1px solid red;
+}
+
+@media screen and (max-width: 769px) {
+  .cover__link {
+    grid-template-columns: 1fr 260px 1fr;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .cover__link {
+    grid-template-rows:  1fr 70px 48px 1fr;
+  }
 }

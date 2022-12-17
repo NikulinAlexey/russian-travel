@@ -5,11 +5,12 @@
   width: 100%;
   height: 100%;
   background-color: #2A2C2F;
-  z-index: 1;
   opacity: .3;
   transition: opacity .3s  ease-in-out;
+  border: 1px solid red;
 }
 
 .cover__link_overlay:hover {
+  z-index: 1;
   opacity: .8;
 }
