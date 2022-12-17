@@ -1,4 +1,26 @@
 .header__lang-link {
-  margin: 18px 0 6px 0;
-  display: flex;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__lang-link:first-of-type {
+  border-bottom: 2px solid white;
+  top: 18px;
+  right: 47px;
+}
+
+@media screen and (max-width: 520px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

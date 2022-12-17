@@ -23,7 +23,10 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-  display: flex;
+  position: relative;
   justify-content: space-between;
   margin: 28px 3% 48px 3%;
+  display: block;
+  height: 52px;
+  border: 1px solid green;
 }
