@@ -39,6 +39,7 @@
   background-position: center;
   background-repeat: no-repeat;
   min-height: 740px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1084px) {
