@@ -16,7 +16,7 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    max-width: 250px; 
+    max-width: 250px;
     bottom: calc((100% - 72px - 66px - 16px)/2);
     left: calc((100% - 250px)/2);
   }

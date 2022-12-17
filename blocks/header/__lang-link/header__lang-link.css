@@ -12,7 +12,7 @@
 
 .header__lang-link:first-of-type {
   border-bottom: 2px solid white;
-  margin: 18px 18px 6px auto ;
+  margin: 18px 18px 6px auto;
 }
 
 @media screen and (max-width: 520px) {
