@@ -4,7 +4,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  border: 1px solid red;
 }
 
 .footer__nav_link:nth-of-type(2n) {

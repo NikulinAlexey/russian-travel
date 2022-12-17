@@ -1,6 +1,5 @@
 .footer__nav {
   display: flex;
-  border: 1px solid green;
 }
 
 @media screen and (max-width: 769px) {
