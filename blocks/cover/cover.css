@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 3% 92px 3%;
-  background-image: url(/images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   background-size:auto;
   background-size: cover;
   background-position: center;
