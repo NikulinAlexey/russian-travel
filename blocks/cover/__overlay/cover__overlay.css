@@ -1,5 +1,7 @@
 .cover__overlay {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   top: 0;
   left: 0;
   width: 100%;
@@ -7,9 +9,9 @@
   background-color: #2A2C2F;
   transition: opacity .3s ease-in-out;
   opacity: .3;
+  text-decoration: none;
 }
 
 .cover__overlay:hover {
   opacity: .8;
-  z-index: 1;
 }
