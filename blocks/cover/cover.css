@@ -9,7 +9,6 @@
   background-position: center;
   background-repeat: no-repeat;
   min-height: 740px;
-  border: 1px solid red;
 }
 
 @media screen and (max-width: 1084px) {
