@@ -1,4 +1,4 @@
-.place__text_paragraph {
+.place__paragraph {
   margin: 5% 0 0;
   padding: 0;
   font-weight: 400;
@@ -6,12 +6,12 @@
   line-height: 29px;
 }
 
-.place__text_paragraph:first-of-type {
+.place__paragraph:first-of-type {
   margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .place__text_paragraph {
+  .place__paragraph {
       font-size: 16px;
       line-height: 26px;
   }
