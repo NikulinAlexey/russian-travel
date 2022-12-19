@@ -1,4 +1,6 @@
 .website__link {
+  display: block;
+  max-width: max-content;
   padding: 0;
   margin: 0;
   color: white;
@@ -7,6 +9,7 @@
   line-height: 22px;
   opacity: 1;
   transition: opacity .3s ease-in-out;
+  border: 1px solid red;
 }
 
 .website__link:hover {
