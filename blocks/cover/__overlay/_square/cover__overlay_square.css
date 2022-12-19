@@ -7,7 +7,6 @@
   background-color: #2A2C2F;
   transition: opacity .3s ease-in-out;
   opacity: .3;
-  border: 1px solid red;
 }
 
 .cover__overlay_square:hover {
