@@ -1,10 +1,9 @@
 .footer {
   display: flex;
   margin: 0 auto 24px auto;
-  border: 1px solid yellow;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .footer {
     flex-direction: column;
   }

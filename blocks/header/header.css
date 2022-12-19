@@ -4,7 +4,6 @@
   display: flex;
   max-width: 1184px;
   box-sizing: border-box;
-  border: 1px solid green;
 }
 
 @media screen and (max-width: 1184px) {

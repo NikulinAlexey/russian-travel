@@ -3,7 +3,8 @@
   display: grid;
   grid-template-columns: 47% 1fr;
   grid-template-rows: minmax(min-content, max-content) 1fr;
-  gap: 2.5em;
+  row-gap: 3rem;
+  column-gap: 2rem;
 }
 
 .place:last-of-type {
@@ -13,5 +14,11 @@
 @media screen and (max-width: 767px) {
   .place {
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    gap: 2rem;
   }
 }
