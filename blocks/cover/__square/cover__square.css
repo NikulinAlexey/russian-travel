@@ -1,4 +1,4 @@
-.cover__overlay_square {
+.cover__square {
   position: absolute;
   top: 0;
   left: 0;
@@ -9,6 +9,6 @@
   opacity: .3;
 }
 
-.cover__overlay_square:hover {
+.cover__square:hover {
   opacity: .8;
 }
