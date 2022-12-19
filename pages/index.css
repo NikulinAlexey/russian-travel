@@ -10,7 +10,7 @@
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-@import url(../blocks/lead/__caption/_bold/intro__list_bold.css);
+@import url(../blocks/lead/__span-accent/intro__span-accent.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
