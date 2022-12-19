@@ -9,7 +9,6 @@
   line-height: 22px;
   opacity: 1;
   transition: opacity .3s ease-in-out;
-  border: 1px solid red;
 }
 
 .website__link:hover {
