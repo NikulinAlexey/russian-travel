@@ -1,15 +1,17 @@
-.place__paragraph {
-  margin: 0;
+.place__text_paragraph {
+  margin: 5% 0 0;
   padding: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 29px;
-  display: flex;
-  flex-direction: column;
+}
+
+.place__text_paragraph:first-of-type {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragraph_text {
+  .place__text_paragraph {
       font-size: 16px;
       line-height: 26px;
   }
