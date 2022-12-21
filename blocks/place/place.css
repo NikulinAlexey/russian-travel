@@ -9,19 +9,23 @@
   grid-template-columns: 47% 1fr;
   grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
   row-gap: 2.9rem;
-  column-gap: 2.5rem;
-  border: 1px solid green;
+  column-gap: 1.9rem;
 }
 
 .place:last-of-type {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place {
-    gap: 2rem;
+    row-gap: 2.8rem;
     margin-bottom: 73px;
-    grid-template-columns: 100%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .place {
+    grid-template-columns: 1fr;
   }
 }
 
