@@ -1,22 +1,10 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
   max-width: 1184px;
-  border: 1px solid yellow;
+  margin: 0 auto;
 }
-
 
 @media screen and (max-width: 1184px) {
   .content {
-    margin-left: 3%;
-    margin-right: 3%;
-    max-width: 100%;
-  }
-}
-
-@media screen and (min-width: 1184px) {
-  .content {
-    width: 1184px;
+    width: 100%;
   }
 }

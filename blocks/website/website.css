@@ -4,3 +4,10 @@
   padding: 0;
   flex-direction: column;
 }
+
+@media screen and (max-width: 320px) {
+  .website {
+    margin-left: 3%;
+    margin-right: 3%;      
+  }
+}

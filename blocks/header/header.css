@@ -4,6 +4,20 @@
   display: flex;
   max-width: 1184px;
   border: 1px solid red;
+  height: 52px;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    margin-top: 16px;
+    height: 42px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin-bottom: 48px;
+  }
 }
 
 @media screen and (max-width: 1184px) {

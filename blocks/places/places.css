@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   max-width: 984px;
+  padding: 0;
   margin: 0 auto 92px auto;
 }
 
@@ -13,7 +14,15 @@
 } 
 
 @media screen and (max-width: 769px) {
-  .intro {
+  .places {
     margin: 0 3% 90px 3%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 66px;
   }
 }
