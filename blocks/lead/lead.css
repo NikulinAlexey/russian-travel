@@ -4,11 +4,12 @@
   max-width: 984px;
   margin: 0 auto 92px auto;
   padding: 0;
+  border: 1px solid green;
 }
 
 @media screen and (max-width: 768px) {
   .lead {
-      margin-bottom: 88px;
+    margin-bottom: 88px;
   }
 } 
 
@@ -19,4 +20,11 @@
       margin: 0 auto 64px auto;
   }
 } 
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+} 
+
 

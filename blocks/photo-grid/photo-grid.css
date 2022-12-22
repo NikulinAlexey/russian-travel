@@ -2,9 +2,10 @@
   box-sizing: border-box;
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit,minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(min-content, 1fr));
   grid-template-rows: repeat(3, 1fr);
   margin: 0 auto 92px auto;
+  border: 1px solid green;
 }
 
 @media screen and (max-width: 1184px) {
@@ -17,7 +18,7 @@
 
 @media screen and (min-width: 1184px) {
   .photo-grid {
-    width: 1184px;
+    max-width: 1184px;
   }
 }
 
@@ -35,6 +36,9 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
+    margin-left: 5%;
+    margin-right: 5%;
+   
     gap: .75rem;
   }
 } 

@@ -33,5 +33,6 @@
   .place {
     margin-bottom: 50px;
     max-width: 320px;
+    gap: 1.9rem;
   }
 }
