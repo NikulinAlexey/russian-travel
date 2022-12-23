@@ -10,14 +10,13 @@
   background-repeat: no-repeat;
   min-height: 740px;
   max-width: 1184px;
-  border: 1px solid blue;
 }
 
-@media screen and (max-width: 1084px) {
+@media screen and (max-width: 1024px) {
   .cover {
       margin-left: 0;
       margin-right: 0;
-      min-height: 640px;
+      min-height: 630px;
   }
 } 
 

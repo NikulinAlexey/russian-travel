@@ -9,3 +9,10 @@
     height: 320px;
   }
 }
+
+@media screen and (max-width: 1024px){
+  .place__image {
+    height: 440px;
+  }
+}
+

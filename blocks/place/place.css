@@ -4,9 +4,8 @@
   margin-right: 0;
   margin-bottom: 80px;
   padding: 0;
-  line-height: 0;
   display: grid;
-  grid-template-columns: 47% 1fr;
+  grid-template-columns: 47.5% 1fr;
   grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content);
   row-gap: 2.9rem;
   column-gap: 1.9rem;
@@ -18,9 +17,16 @@
 
 @media screen and (max-width: 768px) {
   .place {
-    row-gap: 2.8rem;
+    row-gap: 2.9rem;
+    column-gap: 1.8rem;
     margin-bottom: 73px;
   }
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    row-gap: 3.05rem;
+    }
 }
 
 @media screen and (max-width: 760px) {

@@ -2,7 +2,7 @@
   display: inline-block;
   color: white;
   padding: 0;
-  margin: auto 0 6px 0;
+  margin: 18px 0 auto 0;
   text-decoration: none;
   font-family: Inter;
   font-weight: 400;
@@ -10,7 +10,6 @@
   line-height: 28px;
   opacity: 1;
   transition: opacity .3s ease-in-out;
-  border: 1px solid green;
 }
 
 .header__lang-link:hover {
