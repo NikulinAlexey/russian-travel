@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   min-height: 740px;
   max-width: 1184px;
+  border: 1px solid blue;
 }
 
 @media screen and (max-width: 1084px) {
@@ -30,5 +31,11 @@
 @media screen and (max-width: 600px) {
   .cover {
     min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    margin-bottom: 64px;
   }
 }

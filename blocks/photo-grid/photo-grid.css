@@ -36,9 +36,8 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    margin-left: 5%;
-    margin-right: 5%;
-   
+    margin-left: 16px;
+    margin-right: 16px;
     gap: .75rem;
   }
 } 
