@@ -33,6 +33,7 @@
   .place {
     margin-bottom: 50px;
     max-width: 320px;
-    gap: 1.9rem;
+    gap: 1.96rem;
+    line-height: 28.08px;
   }
 }

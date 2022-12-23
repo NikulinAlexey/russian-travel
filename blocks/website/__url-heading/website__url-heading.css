@@ -9,3 +9,9 @@
   color: #AAAAAA;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 320px) {
+  .website__url-heading {
+    margin-bottom: 12px;
+  }
+}
