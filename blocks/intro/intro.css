@@ -12,15 +12,18 @@
 
 @media screen and (max-width: 1024px)  {
   .intro {
-    width: 90%;
-    margin: 0 5% 92px 5%;
+    max-width: 690px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 } 
 
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 90%;
-    margin: 0 5% 88px 5%;
+    max-width: 720px;
+    margin-bottom: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
