@@ -41,7 +41,7 @@
   .place {
     margin-bottom: 50px;
     max-width: 320px;
-    gap: 1.96rem;
+    gap: 32px;
     line-height: 28.08px;
   }
 }

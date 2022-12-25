@@ -30,6 +30,10 @@
 }
 
 @media screen and (max-width: 320px) {
+  .place__title:first-of-type {
+    word-spacing: 0px;
+  }
+
   .place__title {
     margin-left: 16px;
     margin-right: 16px;
