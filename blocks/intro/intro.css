@@ -1,14 +1,8 @@
 .intro {
-  width: 984px;
+  box-sizing: border-box;
+  max-width: 984px;
   margin: 0 auto 92px auto;
 }
-
-@media screen and (max-width: 1055px)  {
-  .intro {
-    width: 94%;
-    margin: 0 3% 92px 3%;
-  }
-} 
 
 @media screen and (max-width: 1024px)  {
   .intro {
@@ -27,16 +21,10 @@
   }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 340px){
   .intro {
-    margin: 0 5% 64px 5%;
-  }
-}
-
-@media screen and (max-width: 320px){
-  .intro {
-    margin: 0 16px 64px 16px;
     max-width: 288px;
+    margin: 0 16px 64px 16px;
   }
 }
 
